@@ -16,7 +16,7 @@ span { margin-left: 3px;}
     width: 100%;
     height: 100%;
     background-color: black;
-    opacity: 0.5;
+    opacity: 0.6;
     position: absolute;
     z-index: 1;
 }
@@ -100,7 +100,7 @@ span { margin-left: 3px;}
 
 /* s1 */
 
-.section1 {
+.index-section1 {
     max-width: 1366px;
     width: 100%;
     height: 715px;
@@ -201,7 +201,7 @@ span { margin-left: 3px;}
 
 /* s2 */
 
-.section2 {
+.index-section2 {
     max-width: 1366px;
     width: 100%;
     height: 672px;
@@ -221,7 +221,7 @@ span { margin-left: 3px;}
     font-size: 14px;
     color: #5863F8;
 }
-.section2 h1 {
+.index-section2 h1 {
     width: 498px;
     height: 115px;
     font-family: 'Poppins ExtraBold';
@@ -318,7 +318,7 @@ span { margin-left: 3px;}
 
 /* s3 */
 
-.section3 {
+.index-section3 {
     max-width: 1366px;
     height: 190px;
     display: flex;
@@ -377,7 +377,8 @@ span { margin-left: 3px;}
 
 /* s4 */
 
-.section4 {
+.index-section4,
+.contact-section3 {
     max-width: 1366px;
     width: 100%;
     height: 620px;
@@ -386,7 +387,8 @@ span { margin-left: 3px;}
     flex-direction: column;
     justify-content: space-between;
 }
-.section4 h5 {
+.index-section4 h5,
+.contact-section3 h5 {
     width: 58px;
     height: 20px;
     margin-left: 139px;
@@ -394,13 +396,15 @@ span { margin-left: 3px;}
     font-size: 14px;
     color: #5863F8;
 }
-.section4 h1 {
+.index-section4 h1,
+.contact-section3 h1 {
     width: 566px;
     height: 115px;
     margin-left: 139px;
     font-family: 'Poppins ExtraBold';
     font-size: 42px;
     color: #000000;
+    line-height: 56px;
 }
 .s4-img-box {
     width: 100%;
@@ -607,4 +611,154 @@ span { margin-left: 3px;}
     font-family: 'Poppins Medium';
     font-size: 14px;
     color: #5863F8;
+}
+
+/* contact */
+/* section1 */
+
+.contact-section1 {
+    max-width: 1366px;
+    width: 100%;
+    height: 386px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-s1-map {
+    max-width: 1088px;
+    width: 100%;
+    height: 286px;
+    background-image: url(../img/map.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+}
+.contact-color {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.3;
+    position: absolute;
+    z-index: 1;
+}
+
+/* section2 */
+
+.contact-section2 {
+    max-width: 1366px;
+    width: 100%;
+    height: 670px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-s2-box {
+    max-width: 1088px;
+    width: 100%;
+    height: 670px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contact-s2-box h4 {
+    width: 70px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins Bold';
+    font-size: 14px;
+    color: #5863F8;
+}
+.contact-s2-box h1 {
+    width: 378px;
+    height: 115px;
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins ExtraBold';
+    font-size: 42px;
+    color: #000000;
+    line-height: 56px;
+}
+.contact-s2-minibox {
+    max-width: 1088px;
+    width: 100%;
+    height: 288px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-s2-description,
+.contact-s2-description textarea {
+    max-width: 500px;
+    width: 100%;
+    height: 288px;
+}
+.contact-s2-description textarea {
+    resize: none;
+    background-color: #F8F8F8;
+    border: 2px solid #E8E8E8;
+    padding: 20px;
+}
+.contact-s2-description textarea::placeholder {
+    color: #CECECE;
+    font-family: 'Poppins Regular';
+    font-size: 13px;
+}
+.contact-s2-info {
+    max-width: 550px;
+    width: 100%;
+    height: 288px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-s2-accept {
+    width: 160px;
+    background-color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact-s2-about {
+    max-width: 350px;
+    width: 100%;
+    height: 288px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contact-s2-label input {
+    width: 100%;
+    height: 60px;
+    padding-left: 20px;
+    background-color: #F8F8F8;
+    border: 2px solid #E8E8E8;
+    font-family: 'Poppins Regular';
+    font-size: 13px;
+    border-radius: 0;
+}
+.contact-s2-button {
+    width: 100%;
+    height: 60px;
+    background-color: #5863F8;
+    font-family: 'Poppins Regular';
+    font-size: 14px;
+    color: #FFFFFF;
+    border: none;
 }
