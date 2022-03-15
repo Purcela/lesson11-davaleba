@@ -1,4 +1,6 @@
-span { margin-left: 3px;}
+span { 
+    margin-left: 3px;
+}
 
 body {
     width: 100%;
@@ -44,22 +46,27 @@ body {
     font-family: 'Poppins Bold';
     font-size: 14px;
 }
+.burger-icon {
+    font-size: 30px;
+    color: #ffffff;
+    display: none;
+}
 .header-ul {
     width: 570px;
     display: flex;
     justify-content: space-between;
 }
-.header-rooms,
 .header-li a {
     color: #FFFFFF;
     font-family: 'Poppins SemiBold';
     font-size: 12px;
 }
 .header-rooms {
-    width: 18px;
+    width: 85px;
     height: 18px;
     color: black;
     border: none;
+    opacity: 0.8;
 }
 .header-rooms:focus {
     outline: none;
@@ -405,7 +412,8 @@ body {
 }
 .index-section4 h1,
 .contact-section3 h1 {
-    width: 566px;
+    max-width: 566px;
+    width: 100%;
     height: 115px;
     margin-left: 139px;
     font-family: 'Poppins ExtraBold';
@@ -420,7 +428,8 @@ body {
     justify-content: space-between;
 }
 .s4-img-box img {
-    width: 352px;
+    max-width: 352px;
+    width: 100%;
     height: 352px;
 }
 
@@ -460,7 +469,7 @@ body {
 }
 .footer-about p {
     width: 100%;
-    height: 83px;
+    height: auto;
     font-family: 'Poppins Medium';
     font-size: 14px;
 }
@@ -610,7 +619,7 @@ body {
     font-size: 14px;
     color: #FFFFFF;
 }
-.footer-copyright-p a {
+.footer-copyright p:nth-child(2) a {
     width: 174px;
     height: 100%;
     display: flex;

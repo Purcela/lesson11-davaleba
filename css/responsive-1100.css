@@ -1,0 +1,13 @@
+@media ( max-width: 1100px ) {
+
+    .header-box h6 {
+        margin-left: 20px;
+    }
+    .header-ul {
+        justify-content: space-evenly;
+    }
+    .footer-copyright {
+        justify-content: space-evenly;
+    }
+
+}

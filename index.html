@@ -13,7 +13,7 @@
         <link rel="stylesheet" type="text/css" href="css/reset.css">
         <link rel="stylesheet" type="text/css" href="css/fonts.css">
         <link rel="stylesheet" type="text/css" href="css/styles.css">
-        <link rel="stylesheet" type="text/css" href="css/responsive-1200.css">
+        <link rel="stylesheet" type="text/css" href="css/responsive-1100.css">
         <link rel="stylesheet" type="text/css" href="css/responsive-770.css">
         <link rel="stylesheet" type="text/css" href="css/responsive-480.css">
         <title> lisson_11_restaurant </title>
@@ -24,20 +24,17 @@
         </div>
         <div class="header-box">
             <h6>  Zetta Hotels </h6>
-            <nav>
+            <nav class="header-nav">
                 <ul class="header-ul">
                     <li class="header-home">
                         <a href="index.html"> HOME </a>
                     </li>
                     <li class="header-li">
-                        <a href="#" target="tab"> ROOMS </a>
-                        <select class="header-rooms" name="rooms" id="Country" size="1">
-                            <a href="#" target="tab">
-                                <option value="persons"> 1 person </option> </a>
-                            <a href="contact.html" target="tab">
-                                <option value="persons"> 3 person </option> </a>
-                            <a href="#" target="tab">
-                                <option value="persons"> 5 person </option> </a>
+                        <select class="header-rooms" name="rooms" id="rooms" size="1" > 
+                            <option value="persons"> ROOMS </option>                           
+                            <option value="persons"> 1 person </option> 
+                            <option value="persons"> 3 person </option>
+                            <option value="persons"> 5 person </option>
                         </select>
                     </li>
                     <li class="header-li">
@@ -50,10 +47,14 @@
                         <a href="#" target="tab"> BLOG </a>
                     </li>
                     <li class="header-li">
-                        <a href="contact.html" target="tab"> CONTACT </a>
+                        <a href="contact.html"> CONTACT </a>
                     </li>
                 </ul>
+                <div class="burger-icon">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
             </nav>
+            
         </div>
         <div class="header-box1">
             <h2> Restaurant </h2>
@@ -64,7 +65,7 @@
             </div>
         </div>
     </header>
-    <section class="index-section1">
+    <!-- <section class="index-section1">
         <div class="s1-img-box">
             <img class="s1-img1" src="img/s1-img1.png" alt="s1-img1">
             <div class="s1-img-minibox">
@@ -88,8 +89,8 @@
                 </div>
             </a>
         </div>
-    </section>
-    <section class="index-section2">
+    </section> -->
+    <!-- <section class="index-section2">
         <div class="s2-big-box">
             <h6 class="s2-h6"> RESTAURANT </h6>
             <h1> Explore our menu <br> and eat what you want </h1>
@@ -148,8 +149,8 @@
                 </div>
             </div>
         </div>
-    </section>
-    <section class="index-section3">
+    </section> -->
+    <!-- <section class="index-section3">
         <div class="s3-check-box">
             <div class="s3-check-in">
                 <label for="chack-in"> Check In Date </label>
@@ -167,8 +168,8 @@
                 <button class="s3-button" type="submit" > Submit <i class="fa-regular fa-paper-plane"></i></button>
             </div>
         </div>
-    </section>
-    <section class="index-section4">
+    </section> -->
+    <!-- <section class="index-section4">
         <h5> PHOTOS </h5>
         <h1>See our latest photos <br> from restaurant and hotel</h1>
         <div class="s4-img-box">
@@ -176,7 +177,7 @@
             <img src="img/s4-img2.png" alt="">
             <img src="img/s4-img3.png" alt="">
         </div>
-    </section>
+    </section> -->
     <footer class="footer">
         <div class="footer-box">
             <div class="footer-about">
@@ -230,7 +231,7 @@
         </div>
         <div class="footer-copyright">
             <p> Copyright ©2020 All rights reserved | This template is made with love by <span style="color: #5863F8"> Marian </span> </p>
-            <p class="footer-copyright-p"> <a href="www.portfolioname.com" target="tab"> www.portfolioname.com </a> </p>            
+            <p> <a href="www.portfolioname.com" target="tab"> www.portfolioname.com </a> </p>            
         </div>
     </footer>
 </body>
