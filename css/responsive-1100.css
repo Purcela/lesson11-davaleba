@@ -69,5 +69,23 @@
         max-width: 245px;
         height: 245px;
     }
+    .contact-s1-map {
+        margin: 0 3%;
+    }
+    .contact-section2 {
+        height: 100%;
+    }
+    .contact-s2-box {
+        height: 950px;
+    }
+    .contact-s2-minibox {
+        flex-direction: column;
+        height: 600px;
+        align-items: center;
+    }
+    .contact-s2-box h1,
+    .contact-s2-box h4 {
+        margin-left: 15%;
+    }
 
 }

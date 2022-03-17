@@ -136,6 +136,18 @@
         width: 267px;
         font-size: 18px;
     }
+    .contact-section2 {
+        padding: 0 3%;
+    }
+    .contact-s2-about {
+        max-width: 250px;
+    }
+    .contact-s2-button {
+        width: 430px;
+    }
+    .contact-s2-submit {
+        margin: 0 auto;
+    }
 
 
 }
