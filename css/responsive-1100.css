@@ -9,5 +9,65 @@
     .footer-copyright {
         justify-content: space-evenly;
     }
+    .index-section1 {
+        flex-direction: column;
+        height: 100%;
+        padding: 50px 0;   
+    }
+    .s1-info-box {
+        margin-top: 50px;
+    }
+    .index-section2 {
+        height: 100%;
+    }
+    .s2-big-box {
+        height: 100%;
+    }
+    .s2-menu-box {
+        height: 100%;
+        justify-content: space-evenly;
+    }
+    .s2-box {
+        width: 40%;
+        height: 450px;
+        margin-top: 50px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .s2-food-box,
+    .s2-desert-box {
+        margin: 0;
+    }
+    .index-section2 h1,
+    .s2-h6 {
+        margin-left: 7%;
+    }
+    .index-section3 {
+        height: 300px;
+    }
+    .s3-check-box {
+        height: 100%;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    .s3-check-in,
+    .s3-check-out {
+        width: 35%;
+    }
+    .s3-rooms {
+        width: 15%;
+    }
+    .s3-submit {
+        margin: 0 auto;
+    }
+    .s3-check-box input {
+        width: 100%;
+    }
+    .s4-img-box img {
+        max-width: 245px;
+        height: 245px;
+    }
 
 }
