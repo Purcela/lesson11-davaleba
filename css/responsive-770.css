@@ -11,7 +11,9 @@
     .header-box1 {
         margin-top: 200px;
         margin-left: 50%;
-        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
     }
 
     .footer {
@@ -22,18 +24,23 @@
     .footer-box {
         min-height: 191px;
         height: 100%;
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
     }
     .footer-about {
         width: 50%;
         height: 250px;
         margin: 0 25%;
-        align-items: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         margin-bottom: 50px;
     }
     .footer-social {
         width: 90%;
-        justify-content: space-evenly;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
     }
     .footer-links {
         width: 35%;
@@ -50,29 +57,43 @@
         margin: 0 auto;
     }
     .footer-copyright {
-        flex-direction: column;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         height: 100%;
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
         margin-top: 30px;
     }
     .footer-copyright p:nth-child(1) {
         width: 260px;
         margin: 0 auto;
         height: auto;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .footer-copyright p:nth-child(2) {
         margin-top: 20px;
     }
     .s1-img-box {
         width: 290px;
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
     .s1-img-minibox {
         display: none;
     }
     .s1-img-minibox1{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         margin-top: 50px;
     }
@@ -105,7 +126,9 @@
     .s3-check-out {
         width: 48%;
         margin-bottom: 30px;
-        align-items: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .s3-submit {
         width: 60%;
@@ -116,15 +139,22 @@
     }
     .s3-rooms {
         width: 30%;
-        align-items: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .index-section4,
     .contact-section3 {
         height: 100%;
     }
     .s4-img-box {
-        flex-direction: column;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .index-section4 h1,
     .contact-section3 h1 {
@@ -147,12 +177,20 @@
         height: 1200px;
     }
     .contact-s2-contact {
-        flex-direction: column;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         height: 415px;
     }
     .contact-s2-contact-box {
-        flex-direction: row;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
         max-width: 280px;
     }
     .contact-s2-contact-box div:nth-child(2) {
