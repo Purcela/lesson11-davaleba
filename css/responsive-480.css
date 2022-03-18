@@ -36,5 +36,9 @@
         flex-direction: column;
         max-width: 280px;
     }
+    .s4-img-box img {
+        width: 260px;
+        height: 260px;
+    }
 
 }

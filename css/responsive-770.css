@@ -118,11 +118,6 @@
         width: 30%;
         align-items: center;
     }
-    .s4-img-box img {
-        width: 290px;
-        height: 290px;
-        margin-top: 30px;
-    }
     .index-section4,
     .contact-section3 {
         height: 100%;
@@ -162,6 +157,12 @@
     }
     .contact-s2-contact-box div:nth-child(2) {
         width: 220px;
+    }
+    .s4-img-box img {
+        max-width: 352px;
+        width: 100%;
+        height: 352px;
+        margin-top: 30px;
     }
 
 
