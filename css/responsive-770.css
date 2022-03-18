@@ -148,6 +148,21 @@
     .contact-s2-submit {
         margin: 0 auto;
     }
+    .contact-s2-box {
+        height: 1200px;
+    }
+    .contact-s2-contact {
+        flex-direction: column;
+        align-items: center;
+        height: 415px;
+    }
+    .contact-s2-contact-box {
+        flex-direction: row;
+        max-width: 280px;
+    }
+    .contact-s2-contact-box div:nth-child(2) {
+        width: 220px;
+    }
 
 
 }

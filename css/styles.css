@@ -794,8 +794,8 @@ body {
     font-size: 18px;
     color: #000000;
 }
-.contact-s2-contact-box div:nth-child(3) {
-    height: 40px;
+.contact-s2-contact-box div:nth-child(2) {
+    height: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;

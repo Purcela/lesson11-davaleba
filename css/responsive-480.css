@@ -1,4 +1,40 @@
 
 @media ( max-width: 480px ) {
 
+    .contact-s2-box{
+        height: 1550px;
+    }
+    .contact-s2-box h1{
+        width: 260px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .contact-s2-box h1,
+    .contact-s2-box h4 {
+        margin-left: 6%;
+    }
+    .contact-s2-info{
+        margin-top: 30px;
+        justify-content: center;
+    }
+    .contact-s2-about,
+    .contact-s2-accept,
+    .contact-s2-button {
+        width: 260px;
+    }
+    .contact-s2-info {
+        height: 530px;
+    }
+    .contact-s2-minibox {
+        height: 850px;
+    }
+    .contact-s2-contact {
+        justify-content: space-between;
+        height: 470px;
+    }
+    .contact-s2-contact-box {
+        flex-direction: column;
+        max-width: 280px;
+    }
+
 }
