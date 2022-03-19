@@ -145,6 +145,14 @@ body {
     clear: both;
     background-color: #FFFFFF;
 }
+.header-like-button {
+    width: 80px;
+    height: 70px;
+    position: absolute;
+    z-index: 3;
+    margin-top: 10px;
+    margin-left: 10px;
+}
 
 /* s1 */
 
